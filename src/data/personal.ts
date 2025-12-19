@@ -3,7 +3,7 @@ export const personal = {
   title: "Software Engineer & DevOps",
   tagline: "14+ years building scalable systems and cloud-native infrastructure",
   location: "Búzios, RJ - Brazil",
-  email: "thiagorsouz@gmail.com",
+  email: "contact@thiago.ws",
   github: "https://github.com/thiago",
   linkedin: "https://linkedin.com/in/trsouz",
   photo: "/logos/profile.png",

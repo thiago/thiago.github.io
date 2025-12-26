@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import { motion } from "framer-motion";
 import { personal } from "@/data/personal";
 import { EnvelopeIcon, ChevronDownIcon } from "@heroicons/react/24/outline";
@@ -16,12 +16,13 @@ export function Hero() {
           className="mb-8"
         >
           <div className="relative w-40 h-40 mx-auto mb-6 rounded-full overflow-hidden ring-4 ring-primary/20 ring-offset-4 ring-offset-background">
-            <Image
+            <ExportedImage
               src={personal.photo}
               alt={personal.name}
               fill
               className="object-cover"
               priority
+              fetchPriority="high"
             />
           </div>
         </motion.div>

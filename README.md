@@ -15,7 +15,7 @@ From Buzios/Brazil to the world, working remotely for years building critical sy
 
 ## Contact
 
-- Website: [thiago.social](https://thiago.social)
+- Website: [thiago.ws](https://thiago.ws)
 - GitHub: [@thiago](https://github.com/thiago)
 - LinkedIn: [/in/trsouz](https://linkedin.com/in/trsouz)
 - Email: contact@thiago.ws

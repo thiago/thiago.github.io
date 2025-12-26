@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import { motion } from "framer-motion";
 import { companies } from "@/data/experience";
 
@@ -35,7 +35,7 @@ export function Companies() {
                 className="relative w-16 h-16 md:w-20 md:h-20 grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300"
                 title={company.name}
               >
-                <Image
+                <ExportedImage
                   src={company.logo}
                   alt={company.name}
                   fill

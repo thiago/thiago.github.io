@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import { motion } from "framer-motion";
 import { experiences } from "@/data/experience";
 
@@ -49,7 +49,7 @@ export function Timeline() {
                 >
                   <div className={`flex items-center gap-3 mb-3 ${index % 2 === 0 ? "md:flex-row-reverse" : ""}`}>
                     <div className="relative w-10 h-10 rounded-lg overflow-hidden bg-muted flex-shrink-0">
-                      <Image
+                      <ExportedImage
                         src={exp.logo}
                         alt={exp.company}
                         fill

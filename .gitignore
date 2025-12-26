@@ -1,5 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
+.idea
+.claude
 # dependencies
 /node_modules
 /.pnp
@@ -16,6 +17,10 @@
 # next.js
 /.next/
 /out/
+
+# next-image-export-optimizer (generated at build time)
+/public/optimized-images/
+/public/logos/optimized-images/
 
 # production
 /build
